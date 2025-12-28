@@ -145,38 +145,7 @@ Expected behavior:
 
 ---
 
-## 🧪 Testing Strategy
 
-| Test Case         | Input        | Expected Result      |
-| ----------------- | ------------ | -------------------- |
-| Valid query       | "retrievers" | grounded answer      |
-| Unsupported query | "WhatsApp"   | fallback text        |
-| Exit              | "exit"       | graceful termination |
-
----
-
-## 📌 Technology Stack
-
-| Component  | Technology         |
-| ---------- | ------------------ |
-| Language   | Python 3.10        |
-| Embeddings | HuggingFace MiniLM |
-| Vector DB  | ChromaDB           |
-| Loader     | PyPDFLoader        |
-| LLM        | GPT via OpenAI API |
-| Framework  | LangChain          |
-
----
-
-## 🚧 Future Enhancements
-
-* Add source citations in output
-* Deploy using AWS Bedrock
-* Create UI using Gradio / Streamlit
-* Support multiple PDFs or folders
-* Add confidence scores
-
----
 
 ## 🧑‍💻 Author
 
@@ -185,12 +154,3 @@ Data Scientist | Python | Machine Learning | RAG Systems
 
 ---
 
-## 📝 License
-
-This project is intended for **academic and educational usage**.
-
----
-
-## ⭐ How to Contribute
-
-PRs and suggestions are welcome!
